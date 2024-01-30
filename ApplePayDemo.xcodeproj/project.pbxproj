@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149EDF1A2B697BD900E1C300 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149EDF192B697BD900E1C300 /* ProductRow.swift */; };
 		14A5541C2B577D0E00660B33 /* ApplePayDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A5541B2B577D0E00660B33 /* ApplePayDemoApp.swift */; };
 		14A5541E2B577D0E00660B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A5541D2B577D0E00660B33 /* ContentView.swift */; };
 		14A554202B577D1200660B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A5541F2B577D1200660B33 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		149EDF192B697BD900E1C300 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		14A554182B577D0E00660B33 /* ApplePayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A5541B2B577D0E00660B33 /* ApplePayDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayDemoApp.swift; sourceTree = "<group>"; };
 		14A5541D2B577D0E00660B33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				14A5542D2B57837800660B33 /* ProductCard.swift */,
 				14A554302B584DEB00660B33 /* CardButton.swift */,
+				149EDF192B697BD900E1C300 /* ProductRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				14A5541E2B577D0E00660B33 /* ContentView.swift in Sources */,
 				14A554352B5852B300660B33 /* CartManager.swift in Sources */,
 				14A5541C2B577D0E00660B33 /* ApplePayDemoApp.swift in Sources */,
+				149EDF1A2B697BD900E1C300 /* ProductRow.swift in Sources */,
 				14A5542B2B5782AF00660B33 /* Product.swift in Sources */,
 				14A5542E2B57837800660B33 /* ProductCard.swift in Sources */,
 				14A554312B584DEB00660B33 /* CardButton.swift in Sources */,
