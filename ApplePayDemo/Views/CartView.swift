@@ -13,8 +13,15 @@ struct CartView: View {
     var body: some View {
         ScrollView {
             if cartManager.paymentSuccess {
-                Text("Thanks for your purchase!")
-                    .padding()
+                VStack {
+                    Image("dollar")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                    
+                    Text("Thanks for your purchase!\nYour product will be with you soon...")
+                        .multilineTextAlignment(.center)
+                        .padding()
+                }
             } else {
                 if cartManager.products.count > 0 {
                     ForEach(cartManager.products, id: \.id) { product in
@@ -32,7 +39,13 @@ struct CartView: View {
                     ApplePayButton(action: cartManager.pay)
                         .padding()
                 } else {
-                    Text("Your cart is empty")
+                    VStack {
+                        Image("empty-cart")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                        
+                        Text("Your cart is empty")
+                    }
                 }
             }
         }
